@@ -1,0 +1,24 @@
+{
+  "name": "react-growsumojs",
+  "version": "1.0.0",
+  "description": "Small component to implement GrowSumoJS into your react application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdalla/react-growsumojs.git"
+  },
+  "keywords": [
+    "react",
+    "growsumo",
+    "growsumojs"
+  ],
+  "author": "Carlos Abdalla <carlos.abdalla@msdev.com.br>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abdalla/react-growsumojs/issues"
+  },
+  "homepage": "https://github.com/abdalla/react-growsumojs#readme"
+}
