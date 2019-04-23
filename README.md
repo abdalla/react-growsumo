@@ -42,9 +42,13 @@ class App extends Component {
 export default App;
 ```
 ***react-growsumojs exposes other 2 methods***
+
 ***setUserInfo:*** Used to set the user data, this method expect 1 object with 3 properties.
+
 1 - name: Customer Name
+
 2 - email: Customer Email
+
 3 - customerKey:  Is a unique string that identifies each customer you send to growsumo.
 
 ```zsh
