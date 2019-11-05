@@ -61,9 +61,17 @@ const customerData = {
 GrowSumo.setUserInfo(customerData);
 ```
 
-***createSignup:*** Used to call the growsumojs createSignup.
+***createSignup:*** Used to call the growsumojs createSignup. This method accepts a callback function which will be executed when the request is completed.
 ```zsh
 GrowSumo.createSignup();
+```
+
+or 
+
+```zsh
+GrowSumo.createSignup(() => {
+  console.log('create signup was called successfully')
+});
 ```
 
 ### GrowSumoJS - Docs
