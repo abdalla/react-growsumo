@@ -26,8 +26,7 @@ export const setUserInfo = ({ name, email, customerKey }) => {
 	growsumo.data.customer_key = customerKey;
 };
 
-export const createSignup = () => {
-	growsumo.createSignup();
+export const createSignup = (callback) => {
+	growsumo.createSignup(callback);
 };
-
 
