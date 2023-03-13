@@ -1,4 +1,4 @@
-export const initialize = key => {
+export const initialize = (key,cb) => {
 	const gs = document.createElement('script');
 	gs.src = 'https://snippet.growsumo.com/growsumo.min.js';
 	gs.type = 'text/javascript';
@@ -14,6 +14,10 @@ export const initialize = key => {
 			if (typeof growsumoInit === 'function') {
 				growsumoInit();
 			}
+			if(cb)
+            {
+                cb();
+            }
 		} catch (e) {}
 	};
 	const s = document.getElementsByTagName('script')[0];
